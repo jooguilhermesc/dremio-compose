@@ -1,0 +1,11 @@
+Vendedor_ID,Nome,Email,Telefone,Data_Contratacao,Regiao,Cargo
+V1001,Vendedor 1,vendedor1@loja.com,(11) 99999-0001,2020-02-17,Sudeste,Vendedor
+V1002,Vendedor 2,vendedor2@loja.com,(11) 99999-0002,2021-02-11,Norte,Vendedor
+V1003,Vendedor 3,vendedor3@loja.com,(11) 99999-0003,2019-11-28,Norte,Vendedor
+V1004,Vendedor 4,vendedor4@loja.com,(11) 99999-0004,2021-06-25,Centro-Oeste,Vendedor
+V1005,Vendedor 5,vendedor5@loja.com,(11) 99999-0005,2023-04-17,Nordeste,Gerente
+V1006,Vendedor 6,vendedor6@loja.com,(11) 99999-0006,2021-12-04,Sudeste,Vendedor
+V1007,Vendedor 7,vendedor7@loja.com,(11) 99999-0007,2020-05-15,Sudeste,Vendedor
+V1008,Vendedor 8,vendedor8@loja.com,(11) 99999-0008,2022-09-11,Sul,Vendedor
+V1009,Vendedor 9,vendedor9@loja.com,(11) 99999-0009,2023-02-08,Sul,Vendedor
+V1010,Vendedor 10,vendedor10@loja.com,(11) 99999-0010,2019-10-31,Centro-Oeste,Gerente

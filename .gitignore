@@ -1,0 +1,7 @@
+/dremio
+/data
+/docs
+/parquet
+*.env
+*.py
+*~

@@ -1,0 +1,56 @@
+version: "3.9"
+
+networks:
+  iceberg_env:
+    driver: bridge
+
+services:
+
+  dremio:
+    platform: linux/x86_64
+    image: dremio/dremio-oss:latest
+    ports:
+      - 9047:9047
+      - 31010:31010
+      - 32010:32010
+    container_name: dremio
+    volumes:
+      - ./data:/opt/dremio/data
+    depends_on:
+      - minioserver
+      - nessie
+    networks:
+      - iceberg_env
+
+  minioserver:
+    image: minio/minio
+    ports:
+      - 9000:9000
+      - 9001:9001
+    environment:
+      MINIO_ROOT_USER: minio
+      MINIO_ROOT_PASSWORD: 2'zrFR51EgT[
+    container_name: minio
+    command: server --console-address ":9001" /data
+    networks:
+      - iceberg_env
+
+  nessie:
+    image: projectnessie/nessie
+    container_name: nessie
+    ports:
+    - "19120:19120"
+    networks:
+      - iceberg_env
+
+  otlp-collector:
+    image: otel/opentelemetry-collector:latest
+    container_name: otlp_collector
+    ports:
+      - "4317:4317"   
+      - "55681:55681"
+    environment:
+      - OTEL_COLLECTOR_ZIPKIN_HTTP_PORT=5775  
+      - OTEL_COLLECTOR_ZIPKIN_HTTP_ENDPOINT=http://localhost:5775
+    networks:
+      - iceberg_env

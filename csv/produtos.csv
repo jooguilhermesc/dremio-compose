@@ -1,0 +1,11 @@
+Produto_ID,Nome_Produto,Categoria,País_Origem,Ano_Vinificação,Volume,Preco_Unitario,Fornecedor_ID
+P2000,Vinho 1,Rosé,Brasil,2015,750,133.72,F5
+P2001,Vinho 2,Tinto,França,2020,375,133.72,F3
+P2002,Vinho 3,Rosé,Itália,2011,750,133.72,F10
+P2003,Vinho 4,Espumante,França,2014,375,133.72,F2
+P2004,Vinho 5,Tinto,Brasil,2012,750,133.72,F4
+P2005,Vinho 6,Rosé,Chile,2021,750,133.72,F2
+P2006,Vinho 7,Espumante,Chile,2020,750,133.72,F6
+P2007,Vinho 8,Branco,França,2010,750,133.72,F7
+P2008,Vinho 9,Tinto,Brasil,2018,750,133.72,F9
+P2009,Vinho 10,Espumante,França,2023,375,133.72,F3

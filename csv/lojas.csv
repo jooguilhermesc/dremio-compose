@@ -1,0 +1,11 @@
+Loja_ID,Nome_Loja,Endereco,Cidade,Estado,Data_Abertura,Gerente_ID
+L100,Loja 1,Endereço 1,São Miguel dos Milagres,AL,2017-03-10,V1002
+L101,Loja 2,Endereço 2,Maceió,AL,2018-11-29,V1008
+L102,Loja 3,Endereço 3,Arapiraca,AL,2021-08-14,V1001
+L103,Loja 4,Endereço 4,Maceió,AL,2015-08-15,V1007
+L104,Loja 5,Endereço 5,Arapiraca,AL,2021-10-21,V1010
+L105,Loja 6,Endereço 6,Maragogi,AL,2022-11-09,V1010
+L106,Loja 7,Endereço 7,Barra de São Miguel,AL,2017-10-21,V1008
+L107,Loja 8,Endereço 8,Barra de São Miguel,AL,2023-05-18,V1008
+L108,Loja 9,Endereço 9,Arapiraca,AL,2023-01-27,V1010
+L109,Loja 10,Endereço 10,São Miguel dos Milagres,AL,2021-10-14,V1006

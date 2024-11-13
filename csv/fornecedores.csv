@@ -1,0 +1,11 @@
+Fornecedor_ID,Nome_Fornecedora,CNPJ,Contato,Endereco_Fornecedora,Regiao_Fornecedora
+F1,Fornecedor 1,00.000.000/00001-00,contato1@fornecedor.com,Rua 1,Norte
+F2,Fornecedor 2,00.000.000/00002-00,contato2@fornecedor.com,Rua 2,Nordeste
+F3,Fornecedor 3,00.000.000/00003-00,contato3@fornecedor.com,Rua 3,Norte
+F4,Fornecedor 4,00.000.000/00004-00,contato4@fornecedor.com,Rua 4,Centro-Oeste
+F5,Fornecedor 5,00.000.000/00005-00,contato5@fornecedor.com,Rua 5,Sul
+F6,Fornecedor 6,00.000.000/00006-00,contato6@fornecedor.com,Rua 6,Sudeste
+F7,Fornecedor 7,00.000.000/00007-00,contato7@fornecedor.com,Rua 7,Sudeste
+F8,Fornecedor 8,00.000.000/00008-00,contato8@fornecedor.com,Rua 8,Sudeste
+F9,Fornecedor 9,00.000.000/00009-00,contato9@fornecedor.com,Rua 9,Sul
+F10,Fornecedor 10,00.000.000/00010-00,contato10@fornecedor.com,Rua 10,Sudeste
